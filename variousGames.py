@@ -1,3 +1,5 @@
+
+#infinite loop
 while True:
   print("\033[34m")
   player1 = input ("\nName of User/Player 1: ") 
