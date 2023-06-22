@@ -5,7 +5,13 @@ import array as arr
 op = input("What exponent? ")
 
 if op == "1":
-  print ("ho")
+  m = float(input("m: "))
+  d = float(input("d: "))
+
+  for i in range (5):
+    y = m*i+d
+    ax.append(i)
+    ay.append(y)
 
 
 a = int(input("a: "))
